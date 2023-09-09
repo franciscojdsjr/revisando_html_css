@@ -56,6 +56,7 @@ body {
     /*flex-direction:  row; */
     align-items: center;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .apresentacao__conteudo {
@@ -151,3 +152,27 @@ body {
     width: 100%
 }
 
+
+@media (max-width: 1200px ) {
+
+    .cabecalho {
+
+        padding: 10% 10% 5% 10%;
+    }
+
+    .cabecalho__menu {
+
+        justify-content: center;
+    }
+
+    .apresentacao {
+        
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+}
